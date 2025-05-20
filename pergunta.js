@@ -19,7 +19,38 @@ criarCartao(
    "  Nous sommes." 
 )
 criarCartao(
+   "Física",
+"O que é força?",
+"É a grandeza que pode alterar o estado de movimento ou repouso de um corpo"
+)
+criarCartao(
    "Literatura",
    " O que é o 'eu lírico'?" ,
    "  É a voz que fala no poema." 
 )
+criarCartao(
+   "Literatura",
+   " O que é o 'eu lírico'?" ,
+   "  É a voz que fala no poema." 
+)
+criarCartao(
+   "Literatura",
+   " O que é o 'eu lírico'?" ,
+   "  É a voz que fala no poema." 
+)
+criarCartao(
+   "Literatura",
+   " O que é o 'eu lírico'?" ,
+   "  É a voz que fala no poema." 
+)
+criarCartao(
+   "Literatura",
+   " O que é o 'eu lírico'?" ,
+   "  É a voz que fala no poema." 
+)
+criarCartao(
+   "Literatura",
+   " O que é o 'eu lírico'?" ,
+   "  É a voz que fala no poema." 
+)
+
