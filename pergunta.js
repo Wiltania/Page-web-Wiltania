@@ -34,7 +34,7 @@ criarCartao(
 "É a grandeza que pode alterar o estado de movimento ou repouso de um corpo"
 )
 criarCartao(
-   "Química",
+   "Química ",
    " O que são elementos químicos?" ,
    "  São substâncias formadas por átomos do mesmo tipo." 
 )
