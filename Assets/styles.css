@@ -45,7 +45,6 @@ body {
     position: absolute;
     margin: 0.6rem;
     border-radius: 0.6rem;
-    font-size: 1vw;
     backface-visibility: hidden;
 }
 .cartao__conteudo p{
@@ -100,3 +99,15 @@ footer p{
     font-size: 0.9rem;
     margin-top: 0.5rem;
 }
+@media (max-width: 590px) {
+
+    body {.cartao {
+        flex: 1 0 calc(100% - 1rem);
+    }
+.cartao__conteudo h3 {
+    font-size: 1.5vw;
+}
+.cartao__conteudo p {
+    font-size: 3.8vw;
+}
+}}
