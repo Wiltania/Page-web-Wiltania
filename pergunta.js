@@ -40,7 +40,7 @@ criarCartao(
 )
 criarCartao(
    "Matemática",
-   " Qual é a formula do fatorial de um numero n?" ,
+   " Qual é a fórmula do fatorial de um número n?" ,
    "n! = n × (n - 1) × (n - 2) × ... × 1" 
 )
 criarCartao(
