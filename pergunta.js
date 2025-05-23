@@ -40,8 +40,8 @@ criarCartao(
 )
 criarCartao(
    "Matemática",
-   " O que é o 'eu lírico'?" ,
-   "  É a voz que fala no poema." 
+   " Qual é a formula do fatorial de um numero n?" ,
+   "n! = n × (n - 1) × (n - 2) × ... × 1" 
 )
 criarCartao(
    "Curiosidades",
