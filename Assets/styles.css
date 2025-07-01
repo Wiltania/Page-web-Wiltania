@@ -1,0 +1,113 @@
+:root{
+    --text-color: #1c11b6;
+    --card-front-color: #a5acee;
+    --card-back-color: #071a15;
+}
+
+body {
+    background: url('img/fundo.avif');
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
+#container {
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 4rem;
+     gap: 4rem;
+}
+
+
+.cartao {
+    margin: 1rem 1rem;
+    height: 14rem;
+    width: 14rem;
+    flex-grow: 2;
+    flex-basis: calc(33% -6rem);
+   border-radius: 50%;
+  
+}
+    
+    
+
+.cartao__conteudo{
+    background-color: var(--card-front-color);
+    text-align: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
+.cartao__conteudo h3{
+    border: 1.5px solid rgb(89, 0, 255,0.644);
+    color:rgb(89, 0, 255,0.911);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    backface-visibility: hidden;
+}
+.cartao__conteudo p{
+    margin-top: 2rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    box-sizing: border-box;
+
+}
+.cartao__conteudo__pergunta p{
+    color: var(--text-color);
+    font-weight: 600;
+    
+}
+.cartao__conteudo__resposta p{
+    color: var(--card-back-color);
+    font-weight: 400;
+}
+
+
+
+.cartao.active .cartao__conteudo {
+    transform: rotateY(180deg);
+}
+
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cartao__conteudo__resposta{
+    transform: rotateY(180deg);
+    background-color:rgb(238,231,165, 0.932);
+    border:2px solid rgb(250, 182,55);
+}
+
+
+footer{
+background-color: (93,91,65 );
+color: rgb(247, 212, 57);
+position: relative;
+bottom: 0;
+width: 100%;
+height: 1.5rem;
+}
+footer p{
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+@media (max-width: 590px) {
+
+    body {.cartao {
+        flex: 1 0 calc(100% - 1rem);
+    }
+.cartao__conteudo h3 {
+    font-size: 1.5vw;
+}
+.cartao__conteudo p {
+    font-size: 3.8vw;
+}
+}}
